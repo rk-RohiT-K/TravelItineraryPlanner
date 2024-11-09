@@ -12,7 +12,7 @@ The OneDay Tour Itinerary Planner is a travel application designed to plan a com
 - Streamlit
 - FastAPI
 - Requests library
-- Neo4j (for storing user preferences and visit history)
+- Neo4j
 - Ollama LLM library
 ## Installation
 1. Clone the repository:
@@ -26,7 +26,7 @@ cd oneday-tour-planner
 pip install -r requirements.txt
 ~~~
 3. Ensure your Neo4j database is running and configured properly.
-4. Make sure you **AccuWeather** and **NewsApi**, replace them in the ```markdown curr_affairs.py```
+4. Make sure you **AccuWeather** and **NewsApi**, replace them in the ```curr_affairs.py```
 ## How to Run
 ### Streamlit Frontend
 To start the front-end interface:
